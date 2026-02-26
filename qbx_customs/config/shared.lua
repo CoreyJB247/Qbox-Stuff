@@ -10,7 +10,7 @@ return {
         --         hideBlip = false, -- When true, the blip for this location is hidden
         --         blip = {
         --             sprite = 72, -- https://docs.fivem.net/docs/game-references/blips/#blips
-        --             color = 3,   -- https://docs.fivem.net/docs/game-references/blips/#blip-colors
+        --             color = 4,   -- https://docs.fivem.net/docs/game-references/blips/#blip-colors
         --             scale = 0.8,
         --             label = "EXAMPLE ZONE",
         --         },
@@ -33,12 +33,24 @@ return {
                      vec3(431.08, -978.28, 25.68),
                      vec3(431.04, -973.4, 25.68),
                  }
-             },
+        },
+        {
+                 freeRepair = { 'police' }, -- Provides free repairs to specified job
+                 freeMods = { 'police' }, -- provides free modifications to specified job
+                 job = { 'police' }, -- Restricts customs access to a specific job (useful for restricting to mechanics, police, ambulance, etc)
+                 hideBlip = true, -- When true, the blip for this location is hidden
+                 points = {
+                     vec3(-3173.0, 1125.92, 20.96),
+                     vec3(-3169.88, 1124.16, 20.96),
+                     vec3(-3166.88, 1131.24, 21.04),
+                     vec3(-3170.16, 1132.88, 21.0),
+                 }
+        },
         {
             hideBlip = false,
             blip = {
                 sprite = 72,
-                color = 3,
+                color = 4,
                 scale = 0.8,
                 label = 'Los Santos Customs - Vinewood',
             },
@@ -53,7 +65,7 @@ return {
             hideBlip = false,
             blip = {
                 sprite = 72,
-                color = 3,
+                color = 4,
                 scale = 0.8,
                 label = 'Los Santos Customs - Airport',
             },
@@ -69,7 +81,7 @@ return {
             hideBlip = false,
             blip = {
                 sprite = 72,
-                color = 3,
+                color = 4,
                 scale = 0.8,
                 label = 'Los Santos Customs - East',
             },
@@ -84,7 +96,7 @@ return {
             hideBlip = false,
             blip = {
                 sprite = 72,
-                color = 3,
+                color = 4,
                 scale = 0.8,
                 label = 'Los Santos Customs - Sandy Shores',
             },
@@ -99,7 +111,7 @@ return {
             hideBlip = false,
             blip = {
                 sprite = 72,
-                color = 3,
+                color = 4,
                 scale = 0.8,
                 label = 'Los Santos Customs - Paleto',
             },
@@ -114,7 +126,7 @@ return {
             hideBlip = false,
             blip = {
                 sprite = 72,
-                color = 3,
+                color = 4,
                 scale = 0.8,
                 label = "Benny's Motorworks",
             },
