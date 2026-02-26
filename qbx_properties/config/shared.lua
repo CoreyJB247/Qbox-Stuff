@@ -38,7 +38,7 @@ return {
         description = 'An Apartment with an open view!',
         enter = vec3(-614.58, 46.52, 43.59)
     },
-}
+},
 
     interiors = {
         [`furnitured_midapart`] = {
