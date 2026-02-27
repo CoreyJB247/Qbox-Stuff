@@ -8,19 +8,19 @@
 ---@type SkillCheckConfig
 local easyLockpickSkillCheck = {
     difficulty = { 'easy', 'easy', { areaSize = 60, speedMultiplier = 1 }, 'medium' },
-    inputs = { '1', '2', '3' }
+    inputs = { 'w'}
 }
 
 ---@type SkillCheckConfig
 local normalLockpickSkillCheck = {
     difficulty = { 'easy', 'easy', { areaSize = 60, speedMultiplier = 1 }, 'medium' },
-    inputs = { '1', '2', '3', '4' }
+    inputs = { 's' }
 }
 
 ---@type SkillCheckConfig
 local hardLockpickSkillCheck = {
     difficulty = { 'easy', 'easy', { areaSize = 60, speedMultiplier = 2 }, 'medium' },
-    inputs = { '1', '2', '3', '4' }
+    inputs = { 'a' }
 }
 
 return {
