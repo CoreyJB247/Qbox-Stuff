@@ -12,7 +12,7 @@ return {
         default = {
             noLock = false,
             spawnLockedIfParked = 0.75,
-            spawnLockedIfDriven = 0.75,
+            spawnLockedIfDriven = 0.48,
             carjackingImmune = false,
             lockpickImmune = false,
             shared = false,
