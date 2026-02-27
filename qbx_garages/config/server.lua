@@ -107,6 +107,21 @@ return {
                 }
             },
         },
+        grapeseed = {
+            label = 'Grapeseed Main St Parking',
+            vehicleType = VehicleType.CAR,
+            accessPoints = {
+                {
+                    blip = {
+                        name = 'Public Parking',
+                        sprite = 357,
+                        color = 3,
+                    },
+                    coords = vec4(1702.76, 4800.96, 41.8, 91.76),
+                    spawn = vec4(1702.76, 4800.96, 41.8, 91.76),
+                }
+            },
+        },
         caears24 = {
             label = 'Caears 24 Parking',
             vehicleType = VehicleType.CAR,
@@ -182,8 +197,8 @@ return {
                 }
             },
         },
-        themotorhotel = {
-            label = 'The Motor Hotel Parking',
+        harmony68 = {
+            label = 'Route 68 Parking',
             vehicleType = VehicleType.CAR,
             accessPoints = {
                 {
@@ -192,23 +207,8 @@ return {
                         sprite = 357,
                         color = 3,
                     },
-                    coords = vec4(1137.77, 2663.54, 37.9, 0.0),
-                    spawn = vec4(1137.56, 2674.19, 38.17, 359.95),
-                }
-            },
-        },
-        liqourparking = {
-            label = 'Liqour Parking',
-            vehicleType = VehicleType.CAR,
-            accessPoints = {
-                {
-                    blip = {
-                        name = 'Public Parking',
-                        sprite = 357,
-                        color = 3,
-                    },
-                    coords = vec4(960.68, 3609.32, 32.98, 268.97),
-                    spawn = vec4(960.48, 3605.71, 32.98, 87.09),
+                    coords = vec4(216.36, 2607.88, 46.28, 13.52),
+                    spawn = vec4(216.36, 2607.88, 46.28, 13.52),
                 }
             },
         },
@@ -227,8 +227,8 @@ return {
                 }
             },
         },
-        haanparking = {
-            label = 'Bell Farms Parking',
+        paletogas = {
+            label = 'Paleto Gas Station Parking',
             vehicleType = VehicleType.CAR,
             accessPoints = {
                 {
@@ -237,8 +237,23 @@ return {
                         sprite = 357,
                         color = 3,
                     },
-                    coords = vec4(78.34, 6418.74, 31.28, 0),
-                    spawn = vec4(70.71, 6425.16, 30.92, 68.5),
+                    coords = vec4(141.0, 6604.56, 31.84, 188.56),
+                    spawn = vec4(141.0, 6604.56, 31.84, 188.56),
+                }
+            },
+        },
+        rockford = {
+            label = 'Rockford Hills Parking',
+            vehicleType = VehicleType.CAR,
+            accessPoints = {
+                {
+                    blip = {
+                        name = 'Public Parking',
+                        sprite = 357,
+                        color = 3,
+                    },
+                    coords = vec4(-737.24, -72.04, 41.76, 28.2),
+                    spawn = vec4(-737.24, -72.04, 41.76, 28.2),
                 }
             },
         },
