@@ -34,6 +34,7 @@ return {
             addonsports = 'addonshop',
             addonsuper = 'addonshop',
             addonsuvs = 'addonshop',
+            addonoffroad = 'addonshop',
             addonmotorcycles = 'addonshop',
             
             -- super = { 'pdm', 'luxury' },
@@ -372,6 +373,7 @@ return {
                  addonsports = 'Sports',
                  addonsuper = 'Super',
                  addonsuvs = 'Suvs',
+                 addonoffroad = 'Offroad',
                  addonmotorcycles = 'Motorcycles',
 
              },
