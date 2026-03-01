@@ -322,12 +322,12 @@ return {
                 color = 3,
             },
             categories = {
-                LSPD = 'pdshop',
-                BCSO = 'pdshop',
-                SAHP = 'pdshop',
-                GSPD = 'pdshop',
-                SSPD = 'pdshop',
-                SAFW = 'pdshop'
+                LSPD = 'LSPD',
+                BCSO = 'BCSO',
+                SAHP = 'SAHP',
+                GSPD = 'GSPD',
+                SSPD = 'SSPD',
+                SAFW = 'SAFW'
             },
             testDrive = {
                 limit = 5.0,
