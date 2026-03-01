@@ -54,6 +54,7 @@ return {
                 scale = 0.8,
                 label = 'Los Santos Customs',
             },
+            freeRepair = { 'police' }, -- Provides free repairs to specified job
             points = {
                 vec3(-344.36, -121.92, 38.60),
                 vec3(-319.43, -130.65, 38.60),
@@ -69,6 +70,7 @@ return {
                 scale = 0.8,
                 label = 'Los Santos Customs',
             },
+            freeRepair = { 'police' }, -- Provides free repairs to specified job
             points = {
                 vec3(-1147.7, -1990.31, 13.15),
                 vec3(-1171.05, -2013.96, 13.15),
@@ -85,6 +87,7 @@ return {
                 scale = 0.8,
                 label = 'Los Santos Customs',
             },
+            freeRepair = { 'police' }, -- Provides free repairs to specified job
             points = {
                 vec3(724.93, -1092.04, 22.15),
                 vec3(738.52, -1094.83, 22.15),
@@ -100,6 +103,7 @@ return {
                 scale = 0.8,
                 label = 'Los Santos Customs',
             },
+            freeRepair = { 'police' }, -- Provides free repairs to specified job
             points = {
                 vec3(1172.12, 2644.76, 38.55),
                 vec3(1171.39, 2635.66, 38.55),
@@ -115,6 +119,7 @@ return {
                 scale = 0.8,
                 label = 'Los Santos Customs',
             },
+            freeRepair = { 'police' }, -- Provides free repairs to specified job
             points = {
                 vec3(115.55, 6625.32, 31.75),
                 vec3(109.19, 6631.69, 31.75),
@@ -130,6 +135,7 @@ return {
                 scale = 0.8,
                 label = "Benny's Motorworks",
             },
+            freeRepair = { 'police' }, -- Provides free repairs to specified job
             blipColor = 5,
             points = {
                 vec3(-203.55, -1311.26, 30.85),
